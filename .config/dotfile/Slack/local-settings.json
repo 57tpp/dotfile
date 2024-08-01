@@ -1,0 +1,1 @@
+{"lastEffectiveClientEnvironment":1000,"lastElectronVersionLaunched":"31.0.0","electronFeatureOverrides":[{"experiment":"ripcord_screen_capture_kit","enable_chrome_features":["ScreenCaptureKitMac"],"type":"normal"},{"experiment":"","disable_chrome_features":["PostQuantumKyber"],"type":"normal"}],"useHwAcceleration":true}
