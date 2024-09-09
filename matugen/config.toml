@@ -1,0 +1,9 @@
+[config]
+# ...
+
+[templates.kitty]
+input_path = '/home/tpp57/.config/kitty/theme.conf'
+output_path = '~/.config/kitty/colors.conf'
+
+[config.reload_apps_list]
+kitty=true

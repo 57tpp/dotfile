@@ -1,0 +1,13 @@
+[Unit]
+Description=Lock screen with hyprlock before suspending
+
+[Service]
+User=%i
+Type=forking
+Environment=WAYLAND_DISPLAY=wayland-1
+Environment=XDG_RUNTIME_DIR=/run/user/%i
+ExecStart=/usr/bin/hyprlock
+ExecStartPost=/bin/sleep 1
+
+[Install]
+WantedBy=sleep.target

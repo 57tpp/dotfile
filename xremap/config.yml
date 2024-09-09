@@ -1,0 +1,11 @@
+modmap:
+  - name: SandS
+    remap:
+      Space: [Shift_L, Space]
+      HENKAN: BACKSPACE
+      KATAKANAHIRAGANA: BACKSPACE
+      MUHENKAN: ENTER
+      KEY_RIGHTALT : BACKSPACE
+      KEY_LEFTALT : ZenkakuHankaku
+
+
