@@ -1,6 +1,6 @@
 #!/bin/bash
 
-directory="/home/tpp57/Pictures/folder"
+directory="/home/tpp57/Pictures/Wallpapers/"
 
 # ファイルをランダムに配列に読み込む
 readarray -t random_files < <(find "$directory" -maxdepth 1 -type f -printf "%f\n" | shuf)
