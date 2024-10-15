@@ -2,8 +2,8 @@
 # ...
 
 [templates.kitty]
-input_path = '/home/tpp57/.config/kitty/theme.conf'
-output_path = '~/.config/kitty/colors.conf'
+input_path = '/home/tpp57/.config/kitty/kitty_temp.conf'
+output_path = '/home/tpp57/.config/kitty/colors.conf'
 
 [templates.hyprland]
 input_path = '/home/tpp57/.config/matugen/hyprland_color_temp.conf'

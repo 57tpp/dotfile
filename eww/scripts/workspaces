@@ -1,0 +1,23 @@
+#!/bin/sh
+# dynamic workspaces by XXiaoA
+# reference: https://github.com/Prayag2/bspdd/
+
+monitor_sel=""
+
+workspaces() {
+  ws_count=9
+  active_ws=$(hyprctl printdesk | grep -o '[0-9]' | uniq)
+
+  echo -n "(eventbox :cursor 'pointer' (box :class 'works' :orientation 'h' :spacing 5 :space-evenly 'false' "
+  for i in "$ws_count"; do
+    if $active_ws = i; then 
+      echo -n "(button :onclick 'hyprctl vdesk $i' :class 'work_forcus' '')"
+    else 
+      echo -n "(button :onclick 'hyprctl vdesk $i' :class 'work_forcus' '')"
+    fi
+
+}
+workspaces
+bspc subscribe desktop_focus node_add node_remove node_transfer 2> /dev/null | while read line; do
+    workspaces
+done
