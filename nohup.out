@@ -6298,3 +6298,884 @@ Couldn't connect to /run/user/1000/hypr/0f594732b063a90d44df8c5d402d658f27471dfe
 [33m⚠[0m [2mThe [33m[1mkitty[0m[2m template in [4m/home/tpp57/.config/kitty/theme.conf[0m[2m doesnt exist, skipping...[0m
 Error: Failed to connect to unix /tmp/mykitty with error: dial unix /tmp/mykitty: connect: no such file or directory
 Couldn't connect to /run/user/1000/hypr/0f594732b063a90d44df8c5d402d658f27471dfe_1727080743_967331288/.hyprpaper.sock. (3)
+ok
+ok
+ok
+[LOG] Welcome to hyprpaper!
+built from commit  ()
+[LOG] Cleaned old hyprpaper preloads (1), removing 8.3MB
+[WARN] Monitor DP-1 does not have a target! A wallpaper will not be created.
+[WARN] Monitor HDMI-A-1 does not have a target! A wallpaper will not be created.
+[LOG] hyprpaper socket started at /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock (fd: 4)
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: preload /home/tpp57/Pictures/Wallpapers/MyRockyS - 250 (74660213) .jpg
+[LOG] Preloaded target /home/tpp57/Pictures/Wallpapers/MyRockyS - 250 (74660213) .jpg in 268.60ms -> Pixel size: [1500, 844]
+[LOG] Buffer created for target /home/tpp57/Pictures/Wallpapers/MyRockyS - 250 (74660213) .jpg, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 8.3MB
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: wallpaper ,/home/tpp57/Pictures/Wallpapers/MyRockyS - 250 (74660213) .jpg
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 75db50003ef0
+[LOG] configure for DP-1
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 75db50004750
+[LOG] configure for HDMI-A-1
+[LOG] Image data for DP-1: /home/tpp57/Pictures/Wallpapers/MyRockyS - 250 (74660213) .jpg at [0.00, -0.12], scale: 1.28 (original image size: [1500, 844])
+[LOG] Submitting viewport dest size 1920x1080 for 50003ef0
+[LOG] Image data for HDMI-A-1: /home/tpp57/Pictures/Wallpapers/MyRockyS - 250 (74660213) .jpg at [0.00, -0.12], scale: 1.28 (original image size: [1500, 844])
+[LOG] Submitting viewport dest size 1920x1080 for 50004750
+[LOG] handlePreferredScale: 1.00 for 75db50003ef0
+[LOG] handlePreferredScale: 1.00 for 75db50004750
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/tpp57/Pictures/Wallpapers/MyRockyS - 250 (74660213) .jpg, preload path /run/user/1000/.hyprpaper_YOqCuu
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: preload /home/tpp57/Pictures/Wallpapers/花铭 - 汉服同学系列6 (97441246) .jpg
+[LOG] Preloaded target /home/tpp57/Pictures/Wallpapers/花铭 - 汉服同学系列6 (97441246) .jpg in 284.37ms -> Pixel size: [3745, 2142]
+[LOG] Buffer created for target /home/tpp57/Pictures/Wallpapers/花铭 - 汉服同学系列6 (97441246) .jpg, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 8.3MB
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: wallpaper ,/home/tpp57/Pictures/Wallpapers/花铭 - 汉服同学系列6 (97441246) .jpg
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 75db50004be0
+[LOG] configure for DP-1
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 75db5000ff70
+[LOG] configure for HDMI-A-1
+[LOG] Image data for DP-1: /home/tpp57/Pictures/Wallpapers/花铭 - 汉服同学系列6 (97441246) .jpg at [0.00, -17.72], scale: 0.51 (original image size: [3745, 2142])
+[LOG] Submitting viewport dest size 1920x1080 for 50004be0
+[LOG] Image data for HDMI-A-1: /home/tpp57/Pictures/Wallpapers/花铭 - 汉服同学系列6 (97441246) .jpg at [0.00, -17.72], scale: 0.51 (original image size: [3745, 2142])
+[LOG] Submitting viewport dest size 1920x1080 for 5000ff70
+[LOG] handlePreferredScale: 1.00 for 75db50004be0
+[LOG] handlePreferredScale: 1.00 for 75db5000ff70
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/tpp57/Pictures/Wallpapers/花铭 - 汉服同学系列6 (97441246) .jpg, preload path /run/user/1000/.ok
+ok
+ok
+Error: Failed to connect to unix /tmp/mykitty with error: dial unix /tmp/mykitty: connect: no such file or directory
+ok
+ok
+ok
+ok
+Error: Failed to connect to unix /tmp/mykitty with error: dial unix /tmp/mykitty: connect: no such file or directory
+ok
+[LOG] Welcome to hyprpaper!
+built from commit  ()
+[WARN] Monitor DP-1 does not have a target! A wallpaper will not be created.
+[WARN] Monitor HDMI-A-1 does not have a target! A wallpaper will not be created.
+[LOG] hyprpaper socket started at /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock (fd: 4)
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: preload /home/tpp57/Pictures/Wallpapers/F5JvgkXW0AA3seC.jfif
+[LOG] Preloaded target /home/tpp57/Pictures/Wallpapers/F5JvgkXW0AA3seC.jfif in 23.98ms -> Pixel size: [2048, 1400]
+[LOG] Buffer created for target /home/tpp57/Pictures/Wallpapers/F5JvgkXW0AA3seC.jfif, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 8.3MB
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: wallpaper ,/home/tpp57/Pictures/Wallpapers/F5JvgkXW0AA3seC.jfif
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 77f7500305f0
+[LOG] configure for DP-1
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 77f750030650
+[LOG] configure for HDMI-A-1
+[LOG] Image data for DP-1: /home/tpp57/Pictures/Wallpapers/F5JvgkXW0AA3seC.jfif at [0.00, -124.00], scale: 0.94 (original image size: [2048, 1400])
+[LOG] Submitting viewport dest size 1920x1080 for 500305f0
+[LOG] Image data for HDMI-A-1: /home/tpp57/Pictures/Wallpapers/F5JvgkXW0AA3seC.jfif at [0.00, -124.00], scale: 0.94 (original image size: [2048, 1400])
+[LOG] Submitting viewport dest size 1920x1080 for 50030650
+[LOG] handlePreferredScale: 1.00 for 77f7500305f0
+[LOG] handlePreferredScale: 1.00 for 77f750030650
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/tpp57/Pictures/Wallpapers/F5JvgkXW0AA3seC.jfif, preload path /run/user/1000/.hyprpaper_7yqnmU
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: preload /home/tpp57/Pictures/Wallpapers/__anjo_nala_reverse_1999__c8214de5fad1952070c4d357556f4147.jpg
+[LOG] Preloaded target /home/tpp57/Pictures/Wallpapers/__anjo_nala_reverse_1999__c8214de5fad1952070c4d357556f4147.jpg in 300.51ms -> Pixel size: [2436, 1125]
+[LOG] Buffer created for target /home/tpp57/Pictures/Wallpapers/__anjo_nala_reverse_1999__c8214de5fad1952070c4d357556f4147.jpg, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 8.3MB
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: wallpaper ,/home/tpp57/Pictures/Wallpapers/__anjo_nala_reverse_1999__c8214de5fad1952070c4d357556f4147.jpg
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 77f75007f2b0
+[LOG] configure for DP-1
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 77f7500021a0
+[LOG] configure for HDMI-A-1
+[LOG] Image data for DP-1: /home/tpp57/Pictures/Wallpapers/__anjo_nala_reverse_1999__c8214de5fad1952070c4d357556f4147.jpg at [-218.00, 0.00], scale: 0.96 (original image size: [2436, 1125])
+[LOG] Submitting viewport dest size 1920x1080 for 5007f2b0
+[LOG] Image data for HDMI-A-1: /home/tpp57/Pictures/Wallpapers/__anjo_nala_reverse_1999__c8214de5fad1952070c4d357556f4147.jpg at [-218.00, 0.00], scale: 0.96 (original image size: [2436, 1125])
+[LOG] Submitting viewport dest size 1920x1080 for 500021a0
+[LOG] handlePreferredScale: 1.00 for 77f75007f2b0
+[LOG] handlePreferredScale: 1.00 for 77f7500021a0
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/tpp57/Pictures/Wallpapers/__anjo_nala_reverse_1999__c8214de5fad1952070c4d357556f4147.jpg, preload path /run/userok
+ok
+ok
+Error: Failed to connect to unix /tmp/mykitty with error: dial unix /tmp/mykitty: connect: no such file or directory
+ok
+ok
+ok
+ok
+Error: Failed to connect to unix /tmp/mykitty with error: dial unix /tmp/mykitty: connect: no such file or directory
+ok
+ok
+/1000/.hyprpaper_O7wzM0
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: preload /home/tpp57/Pictures/Wallpapers/rsef - 秋夕 (76803187) .png
+[LOG] Preloaded target /home/tpp57/Pictures/Wallpapers/rsef - 秋夕 (76803187) .png in 76.55ms -> Pixel size: [2667, 1500]
+[LOG] Buffer created for target /home/tpp57/Pictures/Wallpapers/rsef - 秋夕 (76803187) .png, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 8.3MB
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: wallpaper ,/home/tpp57/Pictures/Wallpapers/rsef - 秋夕 (76803187) .png
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 77f7500015a0
+[LOG] configure for DP-1
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 77f750001730
+[LOG] configure for HDMI-A-1
+[LOG] Image data for DP-1: /home/tpp57/Pictures/Wallpapers/rsef - 秋夕 (76803187) .png at [-0.17, 0.00], scale: 0.72 (original image size: [2667, 1500])
+[LOG] Submitting viewport dest size 1920x1080 for 500015a0
+[LOG] Image data for HDMI-A-1: /home/tpp57/Pictures/Wallpapers/rsef - 秋夕 (76803187) .png at [-0.17, 0.00], scale: 0.72 (original image size: [2667, 1500])
+[LOG] Submitting viewport dest size 1920x1080 for 50001730
+[LOG] handlePreferredScale: 1.00 for 77f7500015a0
+[LOG] handlePreferredScale: 1.00 for 77f750001730
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/tpp57/Pictures/Wallpapers/rsef - 秋夕 (76803187) .png, preload path /run/user/1000/.hyprpaper_VNjdrG
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: preload /home/tpp57/Pictures/Wallpapers/パエリアまつり - 痛くない居場所 (122046836) .png
+[LOG] Preloaded target /home/tpp57/Pictures/Wallpapers/パエリアまつり - 痛くない居場所 (122046836) .png in 78.37ms -> Pixel size: [2883, 1860]
+[LOG] Buffer created for target /home/tpp57/Pictures/Wallpapers/パエリアまつり - 痛くない居場所 (122046836) .png, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 8.3MB
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: wallpaper ,/home/tpp57/Pictures/Wallpapers/パエリアまつり - 痛くない居場所 (122046836) .png
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 77f7500327d0
+[LOG] configure for DP-1
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 77f750031910
+[LOG] configure for HDMI-A-1
+[LOG] Image data for DP-1: /home/tpp57/Pictures/Wallpapers/パエリアまつり - 痛くない居場所 (122046836) .png at [0.00, -119.16], scale: 0.67 (original image size: [2883, 1860])
+[LOG] Submitting viewport dest size 1920x1080 for 500327d0
+[LOG] Image data for HDMI-A-1: /home/tpp57/Pictures/Wallpapers/パエリアまつり - 痛くない居場所 (122046836) .png at [0.00, -119.16], scale: 0.67 (original image size: [2883, 1860])
+[LOG] Submitting viewport dest size 1920x1080 for 50031910
+[LOG] handlePreferredScale: 1.00 for 77f7500327d0
+[LOG] handlePreferredScale: 1.00 for 77f750031910
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/tpp57/Pictures/Wallpapers/パエリアまつり - 痛くない居場所 (122046836) .png, preload path /run/user/1000/.hyprpaper_CE0YPB
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5ok
+ok
+Error: Failed to connect to unix /tmp/mykitty with error: dial unix /tmp/mykitty: connect: no such file or directory
+ok
+ok
+ok
+ok
+Error: Failed to connect to unix /tmp/mykitty with error: dial unix /tmp/mykitty: connect: no such file or directory
+ok
+ok
+ok
+
+[LOG] Received a request: preload /home/tpp57/Pictures/Wallpapers/113840207_p5.jpg
+[LOG] Preloaded target /home/tpp57/Pictures/Wallpapers/113840207_p5.jpg in 67.94ms -> Pixel size: [5640, 2400]
+[LOG] Buffer created for target /home/tpp57/Pictures/Wallpapers/113840207_p5.jpg, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 8.3MB
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: wallpaper ,/home/tpp57/Pictures/Wallpapers/113840207_p5.jpg
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 77f750001730
+[LOG] configure for DP-1
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 77f750032a10
+[LOG] configure for HDMI-A-1
+[LOG] Image data for DP-1: /home/tpp57/Pictures/Wallpapers/113840207_p5.jpg at [-686.67, 0.00], scale: 0.45 (original image size: [5640, 2400])
+[LOG] Submitting viewport dest size 1920x1080 for 50001730
+[LOG] Image data for HDMI-A-1: /home/tpp57/Pictures/Wallpapers/113840207_p5.jpg at [-686.67, 0.00], scale: 0.45 (original image size: [5640, 2400])
+[LOG] Submitting viewport dest size 1920x1080 for 50032a10
+[LOG] handlePreferredScale: 1.00 for 77f750001730
+[LOG] handlePreferredScale: 1.00 for 77f750032a10
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/tpp57/Pictures/Wallpapers/113840207_p5.jpg, preload path /run/user/1000/.hyprpaper_d8Hu2D
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: preload /home/tpp57/Pictures/Wallpapers/110654895_p0.jpg
+[LOG] Preloaded target /home/tpp57/Pictures/Wallpapers/110654895_p0.jpg in 54.89ms -> Pixel size: [4500, 2531]
+[LOG] Buffer created for target /home/tpp57/Pictures/Wallpapers/110654895_p0.jpg, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 8.3MB
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: wallpaper ,/home/tpp57/Pictures/Wallpapers/110654895_p0.jpg
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 77f750044810
+[LOG] configure for DP-1
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 77f7500021a0
+[LOG] configure for HDMI-A-1
+[LOG] Image data for DP-1: /home/tpp57/Pictures/Wallpapers/110654895_p0.jpg at [-0.22, 0.00], scale: 0.43 (original image size: [4500, 2531])
+[LOG] Submitting viewport dest size 1920x1080 for 50044810
+[LOG] Image data for HDMI-A-1: /home/tpp57/Pictures/Wallpapers/110654895_p0.jpg at [-0.22, 0.00], scale: 0.43 (original image size: [4500, 2531])
+[LOG] Submitting viewport dest size 1920x1080 for 500021a0
+[LOG] handlePreferredScale: 1.00 for 77f750044810
+[LOG] handlePreferredScale: 1.00 for 77f7500021a0
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/tpp57/Pictures/Wallpapers/110654895_p0.jpg, preload path /run/user/1000/.hyprpaper_IUO6jd
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: preload /home/tpp57/Pictures/Wallpapers/An_Yb - walking in the rain (122756636) .jpg
+[LOG] Preloaded target /home/tpp57/Pictures/Wallpapers/An_Yb - walking in the rain (122756636) .jpg in 114.75ms -> Pixel size: [3840, 2160]
+[LOG] Buffer created for target /home/tpp57/Pictures/Wallpapers/An_Yb - walking in the rain (122756636) .jpg, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 8.3MB
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOok
+Error: Failed to connect to unix /tmp/mykitty with error: dial unix /tmp/mykitty: connect: no such file or directory
+ok
+ok
+ok
+ok
+Error: Failed to connect to unix /tmp/mykitty with error: dial unix /tmp/mykitty: connect: no such file or directory
+ok
+ok
+ok
+ok
+G] Received a request: wallpaper ,/home/tpp57/Pictures/Wallpapers/An_Yb - walking in the rain (122756636) .jpg
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 77f750032a90
+[LOG] configure for DP-1
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 77f750030390
+[LOG] configure for HDMI-A-1
+[LOG] Image data for DP-1: /home/tpp57/Pictures/Wallpapers/An_Yb - walking in the rain (122756636) .jpg at [-0.00, 0.00], scale: 0.50 (original image size: [3840, 2160])
+[LOG] Submitting viewport dest size 1920x1080 for 50032a90
+[LOG] Image data for HDMI-A-1: /home/tpp57/Pictures/Wallpapers/An_Yb - walking in the rain (122756636) .jpg at [-0.00, 0.00], scale: 0.50 (original image size: [3840, 2160])
+[LOG] Submitting viewport dest size 1920x1080 for 50030390
+[LOG] handlePreferredScale: 1.00 for 77f750032a90
+[LOG] handlePreferredScale: 1.00 for 77f750030390
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/tpp57/Pictures/Wallpapers/An_Yb - walking in the rain (122756636) .jpg, preload path /run/user/1000/.hyprpaper_v7pe24
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: preload /home/tpp57/Pictures/Wallpapers/97379059_p0.png
+[LOG] Preloaded target /home/tpp57/Pictures/Wallpapers/97379059_p0.png in 488.24ms -> Pixel size: [5300, 2046]
+[LOG] Buffer created for target /home/tpp57/Pictures/Wallpapers/97379059_p0.png, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 8.3MB
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: wallpaper ,/home/tpp57/Pictures/Wallpapers/97379059_p0.png
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 77f75007f2b0
+[LOG] configure for DP-1
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 77f750030430
+[LOG] configure for HDMI-A-1
+[LOG] Image data for DP-1: /home/tpp57/Pictures/Wallpapers/97379059_p0.png at [-831.33, 0.00], scale: 0.53 (original image size: [5300, 2046])
+[LOG] Submitting viewport dest size 1920x1080 for 5007f2b0
+[LOG] Image data for HDMI-A-1: /home/tpp57/Pictures/Wallpapers/97379059_p0.png at [-831.33, 0.00], scale: 0.53 (original image size: [5300, 2046])
+[LOG] Submitting viewport dest size 1920x1080 for 50030430
+[LOG] handlePreferredScale: 1.00 for 77f75007f2b0
+[LOG] handlePreferredScale: 1.00 for 77f750030430
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/tpp57/Pictures/Wallpapers/97379059_p0.png, preload path /run/user/1000/.hyprpaper_DSESI8
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: preload /home/tpp57/Pictures/Wallpapers/F9BRpZ-aQAA9W7M.jpg
+[LOG] Preloaded target /home/tpp57/Pictures/Wallpapers/F9BRpZ-aQAA9W7M.jpg in 287.69ms -> Pixel size: [2048, 1152]
+[LOG] Buffer created for target /home/tpp57/Pictures/Wallpapers/F9BRpZ-aQAA9W7M.jpg, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 8.3MB
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: wallpaper ,/home/tpp57/Pictures/Wallpapers/F9BRpZ-aQAA9W7M.jpg
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 77f7500326c0
+[LOG] configure for DP-1
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 77f75002fcd0
+[LOG] configure for HDMI-A-1
+[LOG] Image data for DP-1: /home/tpp57/Pictures/Wallpapers/F9BRpZ-aQAA9W7M.jpg at [-Error: Failed to connect to unix /tmp/mykitty with error: dial unix /tmp/mykitty: connect: no such file or directory
+ok
+ok
+ok
+ok
+Error: Failed to connect to unix /tmp/mykitty with error: dial unix /tmp/mykitty: connect: no such file or directory
+ok
+ok
+ok
+ok
+0.00, 0.00], scale: 0.94 (original image size: [2048, 1152])
+[LOG] Submitting viewport dest size 1920x1080 for 500326c0
+[LOG] Image data for HDMI-A-1: /home/tpp57/Pictures/Wallpapers/F9BRpZ-aQAA9W7M.jpg at [-0.00, 0.00], scale: 0.94 (original image size: [2048, 1152])
+[LOG] Submitting viewport dest size 1920x1080 for 5002fcd0
+[LOG] handlePreferredScale: 1.00 for 77f7500326c0
+[LOG] handlePreferredScale: 1.00 for 77f75002fcd0
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/tpp57/Pictures/Wallpapers/F9BRpZ-aQAA9W7M.jpg, preload path /run/user/1000/.hyprpaper_IhtEtw
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: preload /home/tpp57/Pictures/Wallpapers/potg（ぴおてぐ） - 夜顔 (91496949) .jpg
+[LOG] Preloaded target /home/tpp57/Pictures/Wallpapers/potg（ぴおてぐ） - 夜顔 (91496949) .jpg in 288.04ms -> Pixel size: [1280, 720]
+[LOG] Buffer created for target /home/tpp57/Pictures/Wallpapers/potg（ぴおてぐ） - 夜顔 (91496949) .jpg, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 8.3MB
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: wallpaper ,/home/tpp57/Pictures/Wallpapers/potg（ぴおてぐ） - 夜顔 (91496949) .jpg
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 77f750034750
+[LOG] configure for DP-1
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 77f750044810
+[LOG] configure for HDMI-A-1
+[LOG] Image data for DP-1: /home/tpp57/Pictures/Wallpapers/potg（ぴおてぐ） - 夜顔 (91496949) .jpg at [-0.00, 0.00], scale: 1.50 (original image size: [1280, 720])
+[LOG] Submitting viewport dest size 1920x1080 for 50034750
+[LOG] Image data for HDMI-A-1: /home/tpp57/Pictures/Wallpapers/potg（ぴおてぐ） - 夜顔 (91496949) .jpg at [-0.00, 0.00], scale: 1.50 (original image size: [1280, 720])
+[LOG] Submitting viewport dest size 1920x1080 for 50044810
+[LOG] handlePreferredScale: 1.00 for 77f750034750
+[LOG] handlePreferredScale: 1.00 for 77f750044810
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/tpp57/Pictures/Wallpapers/potg（ぴおてぐ） - 夜顔 (91496949) .jpg, preload path /run/user/1000/.hyprpaper_lCUo6T
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: preload /home/tpp57/Pictures/Wallpapers/鸽子竟是我自己QAQ - 最喜欢后朋克了！ (123057567) .png
+[LOG] Preloaded target /home/tpp57/Pictures/Wallpapers/鸽子竟是我自己QAQ - 最喜欢后朋克了！ (123057567) .png in 426.86ms -> Pixel size: [5642, 3154]
+[LOG] Buffer created for target /home/tpp57/Pictures/Wallpapers/鸽子竟是我自己QAQ - 最喜欢后朋克了！ (123057567) .png, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 8.3MB
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: wallpaper ,/home/tpp57/Pictures/Wallpapers/鸽子竟是我自己QAQ - 最喜欢后朋克了！ (123057567) .png
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 77f750001730
+[LOG] configure for DP-1
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 77f7500324b0
+[LOG] configure for HDMI-A-1
+[LOG] Image data for DP-1: /home/tpp57/Pictures/Wallpapers/鸽子竟是我自己QAQ - 最喜欢后朋克了！ (123057567) .png at [-17.44, 0.00], scale: 0.34 (original image size: [5642, 3154])
+[LOG] Submitting viewport dest size 1920x1080 Error: Failed to connect to unix /tmp/mykitty with error: dial unix /tmp/mykitty: connect: no such file or directory
+ok
+ok
+ok
+ok
+Error: Failed to connect to unix /tmp/mykitty with error: dial unix /tmp/mykitty: connect: no such file or directory
+ok
+ok
+ok
+ok
+for 50001730
+[LOG] Image data for HDMI-A-1: /home/tpp57/Pictures/Wallpapers/鸽子竟是我自己QAQ - 最喜欢后朋克了！ (123057567) .png at [-17.44, 0.00], scale: 0.34 (original image size: [5642, 3154])
+[LOG] Submitting viewport dest size 1920x1080 for 500324b0
+[LOG] handlePreferredScale: 1.00 for 77f750001730
+[LOG] handlePreferredScale: 1.00 for 77f7500324b0
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/tpp57/Pictures/Wallpapers/鸽子竟是我自己QAQ - 最喜欢后朋克了！ (123057567) .png, preload path /run/user/1000/.hyprpaper_MH5xqz
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: preload /home/tpp57/Pictures/Wallpapers/__vertin_reverse_1999_drawn_by_nakazawa_yuki__e6975499d605b7d705d8dfbf1741b331.jpg
+[LOG] Preloaded target /home/tpp57/Pictures/Wallpapers/__vertin_reverse_1999_drawn_by_nakazawa_yuki__e6975499d605b7d705d8dfbf1741b331.jpg in 15.06ms -> Pixel size: [1920, 1080]
+[LOG] Buffer created for target /home/tpp57/Pictures/Wallpapers/__vertin_reverse_1999_drawn_by_nakazawa_yuki__e6975499d605b7d705d8dfbf1741b331.jpg, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 8.3MB
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: wallpaper ,/home/tpp57/Pictures/Wallpapers/__vertin_reverse_1999_drawn_by_nakazawa_yuki__e6975499d605b7d705d8dfbf1741b331.jpg
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 77f750034b90
+[LOG] configure for DP-1
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 77f7500021a0
+[LOG] configure for HDMI-A-1
+[LOG] Image data for DP-1: /home/tpp57/Pictures/Wallpapers/__vertin_reverse_1999_drawn_by_nakazawa_yuki__e6975499d605b7d705d8dfbf1741b331.jpg at [-0.00, 0.00], scale: 1.00 (original image size: [1920, 1080])
+[LOG] Submitting viewport dest size 1920x1080 for 50034b90
+[LOG] Image data for HDMI-A-1: /home/tpp57/Pictures/Wallpapers/__vertin_reverse_1999_drawn_by_nakazawa_yuki__e6975499d605b7d705d8dfbf1741b331.jpg at [-0.00, 0.00], scale: 1.00 (original image size: [1920, 1080])
+[LOG] Submitting viewport dest size 1920x1080 for 500021a0
+[LOG] handlePreferredScale: 1.00 for 77f750034b90
+[LOG] handlePreferredScale: 1.00 for 77f7500021a0
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/tpp57/Pictures/Wallpapers/__vertin_reverse_1999_drawn_by_nakazawa_yuki__e6975499d605b7d705d8dfbf1741b331.jpg, preload path /run/user/1000/.hyprpaper_94xRjK
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: preload /home/tpp57/Pictures/Wallpapers/88450029_p0.jpg
+[LOG] Preloaded target /home/tpp57/Pictures/Wallpapers/88450029_p0.jpg in 59.90ms -> Pixel size: [1924, 1000]
+[LOG] Buffer created for target /home/tpp57/Pictures/Wallpapers/88450029_p0.jpg, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 8.3MB
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: wallpaper ,/home/tpp57/Pictures/Wallpapers/88450029_p0.jpg
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 77f7500015a0
+[LOG] configure for DP-1
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 77f750031880
+[LOG] configure for HDMI-A-1
+[LOG] Image data for DP-1: /home/tpp57/Pictures/Wallpapers/88450029_p0.jpg at [-73.11, 0.00], scale: 1.08 (original image size: [1924, 1000])
+[LOG] Submitting viewport dest size 1920x1080 for 500015a0
+[LOG] Image daError: Failed to connect to unix /tmp/mykitty with error: dial unix /tmp/mykitty: connect: no such file or directory
+ok
+ok
+ok
+ok
+Error: Failed to connect to unix /tmp/mykitty with error: dial unix /tmp/mykitty: connect: no such file or directory
+ok
+ok
+ok
+ok
+Error: Failed to connect to unix /tmp/mykitty with error: dial unix /tmp/mykitty: connect: no such file or directory
+ok
+ta for HDMI-A-1: /home/tpp57/Pictures/Wallpapers/88450029_p0.jpg at [-73.11, 0.00], scale: 1.08 (original image size: [1924, 1000])
+[LOG] Submitting viewport dest size 1920x1080 for 50031880
+[LOG] handlePreferredScale: 1.00 for 77f7500015a0
+[LOG] handlePreferredScale: 1.00 for 77f750031880
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/tpp57/Pictures/Wallpapers/88450029_p0.jpg, preload path /run/user/1000/.hyprpaper_Rh77Na
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: preload /home/tpp57/Pictures/Wallpapers/FlPL58OaYAAtB2B.jpeg
+[LOG] Preloaded target /home/tpp57/Pictures/Wallpapers/FlPL58OaYAAtB2B.jpeg in 284.64ms -> Pixel size: [2048, 1498]
+[LOG] Buffer created for target /home/tpp57/Pictures/Wallpapers/FlPL58OaYAAtB2B.jpeg, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 8.3MB
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: wallpaper ,/home/tpp57/Pictures/Wallpapers/FlPL58OaYAAtB2B.jpeg
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 77f7500325b0
+[LOG] configure for DP-1
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 77f7500021a0
+[LOG] configure for HDMI-A-1
+[LOG] Image data for DP-1: /home/tpp57/Pictures/Wallpapers/FlPL58OaYAAtB2B.jpeg at [0.00, -173.00], scale: 0.94 (original image size: [2048, 1498])
+[LOG] Submitting viewport dest size 1920x1080 for 500325b0
+[LOG] Image data for HDMI-A-1: /home/tpp57/Pictures/Wallpapers/FlPL58OaYAAtB2B.jpeg at [0.00, -173.00], scale: 0.94 (original image size: [2048, 1498])
+[LOG] Submitting viewport dest size 1920x1080 for 500021a0
+[LOG] handlePreferredScale: 1.00 for 77f7500325b0
+[LOG] handlePreferredScale: 1.00 for 77f7500021a0
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/tpp57/Pictures/Wallpapers/FlPL58OaYAAtB2B.jpeg, preload path /run/user/1000/.hyprpaper_JD2fel
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: preload /home/tpp57/Pictures/Wallpapers/岛的鲸 - 《 夜 游 梦 中 》 (118643954) .jpg
+[LOG] Preloaded target /home/tpp57/Pictures/Wallpapers/岛的鲸 - 《 夜 游 梦 中 》 (118643954) .jpg in 106.10ms -> Pixel size: [5298, 2160]
+[LOG] Buffer created for target /home/tpp57/Pictures/Wallpapers/岛的鲸 - 《 夜 游 梦 中 》 (118643954) .jpg, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 8.3MB
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: wallpaper ,/home/tpp57/Pictures/Wallpapers/岛的鲸 - 《 夜 游 梦 中 》 (118643954) .jpg
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 77f750044d20
+[LOG] configure for DP-1
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 77f75002fcd0
+[LOG] configure for HDMI-A-1
+[LOG] Image data for DP-1: /home/tpp57/Pictures/Wallpapers/岛的鲸 - 《 夜 游 梦 中 》 (118643954) .jpg at [-729.00, 0.00], scale: 0.50 (original image size: [5298, 2160])
+[LOG] Submitting viewport dest size 1920x1080 for 50044d20
+[LOG] Image data for HDMI-A-1: /home/tpp57/Pictures/Wallpapers/岛的鲸 - 《 夜 游 梦 中 》 (118643954) .jpg at [-729.00, 0.00], scale: 0.50 (original image size: [5298, 2160])
+[LOG] Submitting viewport dest size 1920x1080 for 5002fcd0
+[LOG] handlePreferredScale: 1.00 for 77f750044d20
+[LOG] handlePreferredScale: 1.00 for 77f75002fcd0
+[LOG] Accepted incoming socket connection requok
+ok
+ok
+Error: Failed to connect to unix /tmp/mykitty with error: dial unix /tmp/mykitty: connect: no such file or directory
+ok
+ok
+ok
+ok
+Error: Failed to connect to unix /tmp/mykitty with error: dial unix /tmp/mykitty: connect: no such file or directory
+ok
+ok
+est on fd 5
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/tpp57/Pictures/Wallpapers/岛的鲸 - 《 夜 游 梦 中 》 (118643954) .jpg, preload path /run/user/1000/.hyprpaper_bj2ebU
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: preload /home/tpp57/Pictures/Wallpapers/Frf7HsCagAAD--h.jpeg
+[LOG] Preloaded target /home/tpp57/Pictures/Wallpapers/Frf7HsCagAAD--h.jpeg in 276.47ms -> Pixel size: [2048, 1152]
+[LOG] Buffer created for target /home/tpp57/Pictures/Wallpapers/Frf7HsCagAAD--h.jpeg, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 8.3MB
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: wallpaper ,/home/tpp57/Pictures/Wallpapers/Frf7HsCagAAD--h.jpeg
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 77f750030390
+[LOG] configure for DP-1
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 77f7500021a0
+[LOG] configure for HDMI-A-1
+[LOG] Image data for DP-1: /home/tpp57/Pictures/Wallpapers/Frf7HsCagAAD--h.jpeg at [-0.00, 0.00], scale: 0.94 (original image size: [2048, 1152])
+[LOG] Submitting viewport dest size 1920x1080 for 50030390
+[LOG] Image data for HDMI-A-1: /home/tpp57/Pictures/Wallpapers/Frf7HsCagAAD--h.jpeg at [-0.00, 0.00], scale: 0.94 (original image size: [2048, 1152])
+[LOG] Submitting viewport dest size 1920x1080 for 500021a0
+[LOG] handlePreferredScale: 1.00 for 77f750030390
+[LOG] handlePreferredScale: 1.00 for 77f7500021a0
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/tpp57/Pictures/Wallpapers/Frf7HsCagAAD--h.jpeg, preload path /run/user/1000/.hyprpaper_wwe6VV
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: preload /home/tpp57/Pictures/Wallpapers/105467533_p0.jpg
+[LOG] Preloaded target /home/tpp57/Pictures/Wallpapers/105467533_p0.jpg in 43.76ms -> Pixel size: [1691, 1691]
+[LOG] Buffer created for target /home/tpp57/Pictures/Wallpapers/105467533_p0.jpg, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 8.3MB
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: wallpaper ,/home/tpp57/Pictures/Wallpapers/105467533_p0.jpg
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 77f750034b90
+[LOG] configure for DP-1
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 77f75002fcd0
+[LOG] configure for HDMI-A-1
+[LOG] Image data for DP-1: /home/tpp57/Pictures/Wallpapers/105467533_p0.jpg at [0.00, -369.91], scale: 1.14 (original image size: [1691, 1691])
+[LOG] Submitting viewport dest size 1920x1080 for 50034b90
+[LOG] Image data for HDMI-A-1: /home/tpp57/Pictures/Wallpapers/105467533_p0.jpg at [0.00, -369.91], scale: 1.14 (original image size: [1691, 1691])
+[LOG] Submitting viewport dest size 1920x1080 for 5002fcd0
+[LOG] handlePreferredScale: 1.00 for 77f750034b90
+[LOG] handlePreferredScale: 1.00 for 77f75002fcd0
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/tpp57/Pictures/Wallpapers/105467533_p0.jpg, preload path /run/user/1000/.hyprpaper_yuyqLR
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: preload /home/tpp57/Pictures/Wallpapers/Novelance - Prev. (85842369) p2.jpg
+[LOG] Preloaded target /home/tpp57/Pictures/Wallpapers/Novelance - Prev. (85842369) p2.jpg in 133.95mok
+ok
+Error: Failed to connect to unix /tmp/mykitty with error: dial unix /tmp/mykitty: connect: no such file or directory
+ok
+ok
+ok
+ok
+Error: Failed to connect to unix /tmp/mykitty with error: dial unix /tmp/mykitty: connect: no such file or directory
+ok
+ok
+ok
+s -> Pixel size: [2560, 1600]
+[LOG] Buffer created for target /home/tpp57/Pictures/Wallpapers/Novelance - Prev. (85842369) p2.jpg, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 8.3MB
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: wallpaper ,/home/tpp57/Pictures/Wallpapers/Novelance - Prev. (85842369) p2.jpg
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 77f750030070
+[LOG] configure for DP-1
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 77f750032390
+[LOG] configure for HDMI-A-1
+[LOG] Image data for DP-1: /home/tpp57/Pictures/Wallpapers/Novelance - Prev. (85842369) p2.jpg at [0.00, -80.00], scale: 0.75 (original image size: [2560, 1600])
+[LOG] Submitting viewport dest size 1920x1080 for 50030070
+[LOG] Image data for HDMI-A-1: /home/tpp57/Pictures/Wallpapers/Novelance - Prev. (85842369) p2.jpg at [0.00, -80.00], scale: 0.75 (original image size: [2560, 1600])
+[LOG] Submitting viewport dest size 1920x1080 for 50032390
+[LOG] handlePreferredScale: 1.00 for 77f750030070
+[LOG] handlePreferredScale: 1.00 for 77f750032390
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/tpp57/Pictures/Wallpapers/Novelance - Prev. (85842369) p2.jpg, preload path /run/user/1000/.hyprpaper_dYvUr1
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: preload /home/tpp57/Pictures/Wallpapers/photo_2024-09-23_14-28-04 (2).jpg
+[LOG] Preloaded target /home/tpp57/Pictures/Wallpapers/photo_2024-09-23_14-28-04 (2).jpg in 27.47ms -> Pixel size: [2048, 1416]
+[LOG] Buffer created for target /home/tpp57/Pictures/Wallpapers/photo_2024-09-23_14-28-04 (2).jpg, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 8.3MB
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: wallpaper ,/home/tpp57/Pictures/Wallpapers/photo_2024-09-23_14-28-04 (2).jpg
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 77f750034830
+[LOG] configure for DP-1
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 77f75007f2b0
+[LOG] configure for HDMI-A-1
+[LOG] Image data for DP-1: /home/tpp57/Pictures/Wallpapers/photo_2024-09-23_14-28-04 (2).jpg at [0.00, -132.00], scale: 0.94 (original image size: [2048, 1416])
+[LOG] Submitting viewport dest size 1920x1080 for 50034830
+[LOG] Image data for HDMI-A-1: /home/tpp57/Pictures/Wallpapers/photo_2024-09-23_14-28-04 (2).jpg at [0.00, -132.00], scale: 0.94 (original image size: [2048, 1416])
+[LOG] Submitting viewport dest size 1920x1080 for 5007f2b0
+[LOG] handlePreferredScale: 1.00 for 77f750034830
+[LOG] handlePreferredScale: 1.00 for 77f75007f2b0
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/tpp57/Pictures/Wallpapers/photo_2024-09-23_14-28-04 (2).jpg, preload path /run/user/1000/.hyprpaper_8p3u3R
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: preload /home/tpp57/Pictures/Wallpapers/サイMA - マリー (82088958) .png
+[LOG] Preloaded target /home/tpp57/Pictures/Wallpapers/サイMA - マリー (82088958) .png in 335.40ms -> Pixel size: [2508, 1771]
+[LOG] Buffer created for target /home/tpp57/Pictures/Wallpapers/サイMA - マリー (82088958) .png, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 8.3MB
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket conok
+Error: Failed to connect to unix /tmp/mykitty with error: dial unix /tmp/mykitty: connect: no such file or directory
+ok
+ok
+ok
+ok
+Error: Failed to connect to unix /tmp/mykitty with error: dial unix /tmp/mykitty: connect: no such file or directory
+ok
+ok
+ok
+ok
+nection request on fd 5
+[LOG] Received a request: wallpaper ,/home/tpp57/Pictures/Wallpapers/サイMA - マリー (82088958) .png
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 77f750001730
+[LOG] configure for DP-1
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 77f75002fcd0
+[LOG] configure for HDMI-A-1
+[LOG] Image data for DP-1: /home/tpp57/Pictures/Wallpapers/サイMA - マリー (82088958) .png at [0.00, -180.13], scale: 0.77 (original image size: [2508, 1771])
+[LOG] Submitting viewport dest size 1920x1080 for 50001730
+[LOG] Image data for HDMI-A-1: /home/tpp57/Pictures/Wallpapers/サイMA - マリー (82088958) .png at [0.00, -180.13], scale: 0.77 (original image size: [2508, 1771])
+[LOG] Submitting viewport dest size 1920x1080 for 5002fcd0
+[LOG] handlePreferredScale: 1.00 for 77f750001730
+[LOG] handlePreferredScale: 1.00 for 77f75002fcd0
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/tpp57/Pictures/Wallpapers/サイMA - マリー (82088958) .png, preload path /run/user/1000/.hyprpaper_dcX0Uo
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: preload /home/tpp57/Pictures/Wallpapers/111749858_p0.jpg
+[LOG] Preloaded target /home/tpp57/Pictures/Wallpapers/111749858_p0.jpg in 320.46ms -> Pixel size: [3840, 2160]
+[LOG] Buffer created for target /home/tpp57/Pictures/Wallpapers/111749858_p0.jpg, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 8.3MB
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: wallpaper ,/home/tpp57/Pictures/Wallpapers/111749858_p0.jpg
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 77f750030390
+[LOG] configure for DP-1
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 77f750034e70
+[LOG] configure for HDMI-A-1
+[LOG] Image data for DP-1: /home/tpp57/Pictures/Wallpapers/111749858_p0.jpg at [-0.00, 0.00], scale: 0.50 (original image size: [3840, 2160])
+[LOG] Submitting viewport dest size 1920x1080 for 50030390
+[LOG] Image data for HDMI-A-1: /home/tpp57/Pictures/Wallpapers/111749858_p0.jpg at [-0.00, 0.00], scale: 0.50 (original image size: [3840, 2160])
+[LOG] Submitting viewport dest size 1920x1080 for 50034e70
+[LOG] handlePreferredScale: 1.00 for 77f750030390
+[LOG] handlePreferredScale: 1.00 for 77f750034e70
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/tpp57/Pictures/Wallpapers/111749858_p0.jpg, preload path /run/user/1000/.hyprpaper_cagva0
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: preload /home/tpp57/Pictures/Wallpapers/hako - 秘密の道 (79134273) .png
+[LOG] Preloaded target /home/tpp57/Pictures/Wallpapers/hako - 秘密の道 (79134273) .png in 54.65ms -> Pixel size: [2048, 1092]
+[LOG] Buffer created for target /home/tpp57/Pictures/Wallpapers/hako - 秘密の道 (79134273) .png, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 8.3MB
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: wallpaper ,/home/tpp57/Pictures/Wallpapers/hako - 秘密の道 (79134273) .png
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 77f750044d20
+[LOG] configure for DP-1
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 77f750034830
+[LOG] configure for HDMI-A-1
+[LOG] Image data foError: Failed to connect to unix /tmp/mykitty with error: dial unix /tmp/mykitty: connect: no such file or directory
+ok
+ok
+Not a JPEG file: starts with 0x60 0x08
+r DP-1: /home/tpp57/Pictures/Wallpapers/hako - 秘密の道 (79134273) .png at [-53.33, 0.00], scale: 0.99 (original image size: [2048, 1092])
+[LOG] Submitting viewport dest size 1920x1080 for 50044d20
+[LOG] Image data for HDMI-A-1: /home/tpp57/Pictures/Wallpapers/hako - 秘密の道 (79134273) .png at [-53.33, 0.00], scale: 0.99 (original image size: [2048, 1092])
+[LOG] Submitting viewport dest size 1920x1080 for 50034830
+[LOG] handlePreferredScale: 1.00 for 77f750044d20
+[LOG] handlePreferredScale: 1.00 for 77f750034830
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/tpp57/Pictures/Wallpapers/hako - 秘密の道 (79134273) .png, preload path /run/user/1000/.hyprpaper_jGafXg
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: preload /home/tpp57/Pictures/Wallpapers/void_0 - Arknights·無刀の境 (78208217) .jpg
+
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)
+Couldn't connect to /run/user/1000/hypr/12f9a0d0b93f691d4d9923716557154d74777b0a_1733226153_33332830/.hyprpaper.sock. (3)

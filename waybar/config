@@ -1,45 +1,123 @@
 {
-    "layer": "top",
-    "position": "top",
-    "height": 22,
-    "margin-top": 15,
-    "modules-left": ["battery", "pulseaudio", "backlight"],
-    "modules-center": ["clock"],
-    "modules-right": ["network", "wlogout"],
-
-    "battery": {
-        "format": "bat: {capacity}%",
-        "format-charging": "charging: {capacity}%"
+  "layer": "top",
+    "height": 10,
+    "modules-left": ["custom/arch", "hyprland/workspaces" , "memory"],
+    "modules-center": ["custom/playerctl"],
+    "modules-right": ["backlight","pulseaudio", "battery", "network","clock"],
+    "custom/arch": {
+     "format": " ",
+      "on-click": "wlogout -p layer-shell &"
+    },
+    "custom/cava_test": {
+        "format": "{}",
+        "exec": "~/.config/waybar/scripts/sound/expand cava-icon"
+    },
+    "hyprland/workspaces": {
+      "format": "{icon}",
+      "on-click": "activate",
+      "all-outputs": true,
+      "persistent_workspaces" :{
+          "1": [],
+	 		    "2": [],
+	 		    "3": [],
+	 		    "4": [],
+	 		    "5": [],
+	 		    "6": [],
+	 		    "7": [],
+	 		    "8": [],
+	 		    "9": [],
+	 		    "10": []
+        },
+        "format-icons": {
+                "1": "1",
+             		"2": "2",
+             		"3": "3",
+             		"4": "4",
+             		"5": "5",
+             		"6": "6",
+             		"7": "7",
+             		"8": "8",
+             		"9": "9",
+             		"10": "10"
+          }
     },
     "clock": {
-        "format": "{:%p %I:%M}",
-        "format-alt": "{:%a, %d. %b  %I:%M %p}"
+      "format": "<span color='#b69bf1'> </span>{:%I:%M}",
+  "format-alt": "<span foreground='#b69bf1'> </span><span>{:%I:%M %p %a %d}</span>",
+      "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
-    "pulseaudio": {
-        "format": "vol: {volume}%",
-        "format-bluetooth": "󰂯: {volume}%",
-        "format-muted": "vol: muted",
-        "scroll-step": 1,
-        "on-click": "pavucontrol",
-        "ignored-sinks": ["Easy Effects Sink"]
+    "custom/cava": {
+      "format": "<span color='#f7768e'>  </span>  {volume}%",
+      "exec": "sh ~/.config/polybar/scripts/cava.sh" ,
+      "label": "%output%"
+      },
+    "backlight": {
+      "device": "amdgpu_b10",
+      "format": "<span color='#d9b172'>{icon}</span> {percent}%",
+      "format-icons": ["", "", "", "", "", "", "", "", ""]
+    },
+    "custom/sound": {
+      "format": "<span color='#5d7'> </span>{}",
+      "exec": "custom-alsa.sh",
     },
     "network": {
-        "interface": "wlo1",
-        "format": "{ifname}",
-        "format-wifi": "wlo1: {essid}",
-        "format-ethernet": "eno1: {ipaddr}/{cidr}",
-        "format-disconnected": "wlo1: disconnected",
-        "max-length": 50
+      "interface": "enp4s0",
+      "format": "{ifname}",
+      "format-wifi": "<span color='#90cdfa'> </span>{essid}({signalStrength}%)",
+      "format-ethernet": "{ipaddr}/{cidr} 󰈀",
+      "format-disconnected": "<span color='#ff005f'>󰖪 </span>No Network",
+      "on-click": "kitty nmtui"
     },
-        "sort-by-number": true
+    "battery": {
+      "format": "<span color='#a8cd76'>{icon}</span> {capacity}%",
+      //"format-alt": "{time} {icon}",
+      "format-icons": ["", "", "", "", "", "", "", "", "", "", ""],
+      "format-charging": "<span color='#a8cd76'></span> {capacity}%"
     },
-    "backlight": {
-        "device": "intel_backlight",
-        "format": "bl: {percent}%",
+    "pulseaudio": {
+      "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+      "format": "<span color='#f7768e'></span> {volume}%",
+      "format-muted": "<span color='#f7768e'>ﱝ</span>",
+      "format-icons": {
+       "headphone": "",
+       "hands-free": "",
+       "headset": "",
+       "phone": "",
+       "portable": "",
+       "car": "",
+       "default": ["奔", "墳"]
     },
-        "custom/wlogout": {
-        "format": "",
-        "interval": "once",
-        "on-click": "wlogout",
-    }
+    "on-click-right" : "pavucontrol"
+    },
+    "memory": {
+    "format": "<span foreground='#9ece6a'>󰍛</span> {}%",
+    "on-click": "kitty htop"
+    },
+    "tray": {
+    "icon-size": 20,
+    "reverse-direction": true,
+    "spacing": 6
+    },
+    "cpu": {
+    "format": "<span foreground='#ff005f'></span>  {usage}%"
+     },
+     "temperature": {
+    "critical-threshold": 80,
+    "format": "<span foreground='#5d73ca'></span> {temperatureC}°C"
+     },
+    "custom/playerctl": {
+     "format": "{icon}  <span>{}</span>",
+     "return-type": "json",
+     "max-length": 55,
+     "exec": "playerctl -a metadata --format '{\"text\": \"  {{markup_escape(title)}}\", \"tooltip\": \"{{playerName}} : {{markup_escape(title)}}\", \"alt\": \"{{status}}\", \"class\": \"{{status}}\"}' -F",
+     "on-click-middle": "playerctl previous",
+     "on-click": "playerctl play-pause",
+     "on-click-right": "playerctl next",
+     "format-icons": {
+       "Paused": "<span foreground='#bb9af7'></span>",
+       "Playing": "<span foreground='#bb9af7'></span>"
+     }
+     }
+
 }
+

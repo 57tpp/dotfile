@@ -21,7 +21,10 @@ lvim.plugins = {
   build = 'deno task prepare',
   ft = 'markdown',
   cmd = { 'PreviewMarkdown', 'PreviewMarkdownStop', 'PreviewMarkdownToggle' },
-  }
+  },
+
+  {'brianhuster/live-preview.nvim'},
+  {'brianhuster/autosave.nvim'}
 
 }
 
@@ -29,3 +32,5 @@ lvim.transparent_window = true
 
 lvim.colorscheme = "retrobox"
 
+lvim.keys.normal_mode["<S-l>"] = ":BufferLineCycleNext<CR>"
+lvim.keys.normal_mode["<S-h>"] = ":BufferLineCyclePrev<CR>"

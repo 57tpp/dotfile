@@ -1,8 +1,8 @@
 ;; Variables
-(defpoll clock_time :interval "5m" "date +\%H")
+(defpoll clock_time :interval "5m" "date +\%I")
 (defpoll clock_minute :interval "5s" "date +\%M")
-(defpoll clock_date :interval "10h" "date '+%Y/%m/%d'")
-(defpoll volume_percent :interval "3s" "amixer -D pulse sget Master | grep 'Left:' | awk -F'[][]' '{ print $2 }' | tr -d '%'")
+(defpoll clock_date :interval "5h" "date '+%Y/%m/%d'")
+(defpoll volume_percent :interval "3s" "pactl get-sink-volume @DEFAULT_SINK@ | awk '/Volume:/ {print $5}' | awk -F '%' '{print $1}'")
 (defpoll memory :interval "15s" "scripts/memory")
 (defpoll memory_used_mb :interval "2m" "scripts/mem-ad used")
 (defpoll memory_total_mb :interval "2m" "scripts/mem-ad total")
@@ -36,7 +36,7 @@
     (box :vexpand false :hexpand false :space-evenly false
      (button
          :class "${wifi_connected == "true" ? "wifi_icon" : "wifi_off_icon"}"
-         :wrap false :limit-width 12 "${wifi_connected == "true" ? "" : ""}")
+         :wrap false :limit-width 12 "${wifi_connected == "true" ? "󰈀" : ""}")
      (revealer :transition "slideright"
         :reveal wifi_rev
         :duration "350ms"
@@ -108,7 +108,7 @@
         :tooltip "${volume_percent}%"
         :max 100
         :min 0
-        :onchange "pactl set-sink-volume @DEFAULT_SINK@ ")))))
+        :onchange "pactl set-sink-volume @DEFAULT_SINK@ {}%")))))
 
   ;;  Music
 (defwidget music []
@@ -163,7 +163,7 @@
                         :width "98%"
                         :height "35px"
                         :anchor "top center")
-    :stacking "fg"
+    :stacking "bg"
     :exclusive true
     :windowtype "desktop"
     (box :class "bar_class" :orientation "h"
