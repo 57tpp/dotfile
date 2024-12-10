@@ -1,45 +1,45 @@
 {
     "layer": "top",
     "position": "top",
-    "height": 22,
-    "margin-top": 15,
-    "modules-left": ["battery", "pulseaudio", "backlight"],
+    "height": 12,
+    "margin-top": 10,
+    "reload_style_on_change": true,
+    "modules-left": ["battery", "pulseaudio", "cpu"],
     "modules-center": ["clock"],
-    "modules-right": ["network", "wlogout"],
+    "modules-right": ["network", "custom/wlogout"],
 
     "battery": {
-        "format": "bat: {capacity}%",
-        "format-charging": "charging: {capacity}%"
+        "format": "󰁹 {capacity}%",
+        "format-charging": "󱈏 {capacity}%"
     },
     "clock": {
         "format": "{:%p %I:%M}",
         "format-alt": "{:%a, %d. %b  %I:%M %p}"
     },
     "pulseaudio": {
-        "format": "vol: {volume}%",
-        "format-bluetooth": "󰂯: {volume}%",
-        "format-muted": "vol: muted",
+        "format": "󰖀 {volume}%",
+        "format-bluetooth": "󰂯 {󰖀ume}%",
+        "format-muted": "󰖀 muted",
         "scroll-step": 1,
         "on-click": "pavucontrol",
         "ignored-sinks": ["Easy Effects Sink"]
     },
+        "custom/wlogout": {
+        "format": "",
+        "on-click": "wlogout -p layer-shell &"
+    },
     "network": {
-        "interface": "wlo1",
+        "interface": "wlp0s20f3",
         "format": "{ifname}",
-        "format-wifi": "wlo1: {essid}",
-        "format-ethernet": "eno1: {ipaddr}/{cidr}",
-        "format-disconnected": "wlo1: disconnected",
+        "format-wifi": "󰖩: {essid}",
+        "format-ethernet": "󰈀: {ipaddr}/{cidr}",
+        "format-disconnected": "󰖪",
         "max-length": 50
     },
         "sort-by-number": true
     },
-    "backlight": {
-        "device": "intel_backlight",
-        "format": "bl: {percent}%",
-    },
-        "custom/wlogout": {
-        "format": "",
-        "interval": "once",
-        "on-click": "wlogout",
+    "cpu": {
+        "interval": 5,
+        "format": ": {}%",
     }
 }

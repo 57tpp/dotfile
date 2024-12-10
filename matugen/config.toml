@@ -8,6 +8,12 @@ output_path = '/home/tpp57/.config/kitty/colors.conf'
 [templates.hyprland]
 input_path = '/home/tpp57/.config/matugen/hyprland_color_temp.conf'
 output_path = '~/.config/hypr/colors.conf'
+post_hook = 'hyprctl reload'
+
+[templates.waybar]
+input_path = '/home/tpp57/.config/matugen/waybar_color_temp.conf'
+output_path = '~/.config/waybar/colors.css'
+#post_hook = 'pkill -SIGUSR2 waybar'
 
 [config.reload_apps_list]
 kitty=true
